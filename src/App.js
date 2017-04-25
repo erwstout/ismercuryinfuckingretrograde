@@ -66,17 +66,17 @@ class App extends Component {
           <footer className="site-footer">
             <div className="container">
               <div className="row row--justify-content-center">
-                <div className="col-1">
+                <div className="sm-col-2 col-1">
                   <a href="https://twitter.com/erwstout" title="Follow on Twitter" role="link">
                     <i className="fa fa-twitter" aria-hidden="true"></i>
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="sm-col-2 col-1">
                   <a href="https://ericwstout.com" title="Visit the developer's portfolio" role="link">
                     <i className="fa fa-desktop" aria-hidden="true"></i>
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="sm-col-2 col-1">
                   <a href="https://github.com/erwstout/ismercuryinfuckingretrograde" title="View on GitHub" role="link">
                     <i className="fa fa-github" aria-hidden="true"></i>
                   </a>
