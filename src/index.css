@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+
+html, body{
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  font-weight: 100;
+  color: white;
+}
+
+h2{
+  font-size: 72px;
+  font-weight: 100;
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.site-footer{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.fa{
+  margin: 0 10px 20px;
+  font-size: 30px;
+  color: white;
+  transition: all .5s ease;
+}
+
+a:hover .fa{
+  color: rgb(84, 4, 156);
+  transform: translateY(-10px);
+}
