@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Loading from './Components/Loading.js';
-import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'elemental';
 
 class App extends Component {
 
@@ -85,15 +84,6 @@ class App extends Component {
               </div>
             </div>
           </footer>
-          <Button onClick={this.toggleModal}>Launch Modal</Button>
-          <Modal isOpen={this.state.modalIsOpen} onCancel={this.toggleModal} backdropClosesModal>
-          	<ModalHeader text="Lots of text to show scroll behavior" showCloseButton onClose={this.toggleModal} />
-          	<ModalBody><p>Hello, World</p></ModalBody>
-          	<ModalFooter>
-          		<Button type="primary" onClick={this.toggleModal}>Close modal</Button>
-          		<Button type="link-cancel" onClick={this.toggleModal}>Also closes modal</Button>
-          	</ModalFooter>
-          </Modal>
         </div>
       );
     }
